@@ -11,6 +11,7 @@
 - 일반화가 잘 되었는지 확인하는 일반적인 방법 :  무작위 샘플
 - make 2nd test dataset = Validation data set
 - Validation Set, Test Set, Training Set :  검증용(Validation) 또는 시험용(Test)을 제외한 나머지는 모두 학습용(Training) 데이터
+![split_sets](https://miro.medium.com/max/585/1*Ka6WNHrQDnoD1WfvYxKl_w.png)
 - Training -> check OOB score -> Check Result On Validation Set -> & Double check On Test Set
   - Validation Set에서는 잘 작동하지만 Test Set에서는 성능이 매우 떨어진다면 일반화에 실패한 것 = 검증용 데이터에 과적합 되었다고 볼 수 있다.
   - 기존 RandomForest에서는 검증용 데이터셋을 필요로 하지 않고, 대신에 OOB 오차 또는 OOB 점수를 사용했었다. (OOB점수는 검증용 데이터셋에 대한 점수와 매우 비슷한 결과를 내준다.)
