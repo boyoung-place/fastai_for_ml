@@ -4,10 +4,13 @@
 
 머신러닝 사용에서 중요한 것 :  **일반화 정확도** 혹은 **일반화 오류**
 
+
 ## Random Forest
 
 : 머신러닝에서 자주 사용되는 알고리즘으로, 학습 적용 데이터를 샘플링해서 여러 개의 의사결정 트리를 만들고, 만들어진 의사결정 트리를 기반으로 다수결로 결과를 결정하는 방법
 
+
+### Test sets , training sets, validation sets and OOB
 - 일반화가 잘 되었는지 확인하는 일반적인 방법 :  무작위 샘플
 - make 2nd test dataset = Validation data set
 - Validation Set, Test Set, Training Set :  검증용(Validation) 또는 시험용(Test)을 제외한 나머지는 모두 학습용(Training) 데이터
